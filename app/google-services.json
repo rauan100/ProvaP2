@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "714202812868",
+    "firebase_url": "https://provap2-c1eaf.firebaseio.com",
+    "project_id": "provap2-c1eaf",
+    "storage_bucket": "provap2-c1eaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714202812868:android:631eb8649c0b40cee61491",
+        "android_client_info": {
+          "package_name": "rauan.ferreira.provap2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714202812868-fk5qga9m9ffh2mge51lvkrt5p7dnvms7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rauan.ferreira.provap2",
+            "certificate_hash": "381d84a7ccb44534815f8ca25175a08e884400bf"
+          }
+        },
+        {
+          "client_id": "714202812868-okh2hvkudlmoeleb7rqca5aff90kgkav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQV_Tfv_8Oqe9UV0zajvGw-McOCa4g_Y4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714202812868-okh2hvkudlmoeleb7rqca5aff90kgkav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
