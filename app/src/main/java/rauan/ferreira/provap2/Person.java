@@ -26,4 +26,9 @@ public class Person {
 
         return result;
     }
+
+    public String toString() {
+
+        return this.name;
+    }
 }
