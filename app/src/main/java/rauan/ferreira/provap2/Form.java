@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Form extends AppCompatActivity {
 
@@ -24,6 +25,9 @@ public class Form extends AppCompatActivity {
     }
 
     private void registerUser(String name, Integer age) {
-        System.out.println("Nome: " + name + " Idade: " + age);
+        Person person = new Person(name, age);
+        Firebase.addPerson(person);
+
+        Toast.makeText(getApplicationContext(), "Usuário inserido com sucesso", Toast.LENGTH_LONG).show();
     }
 }
